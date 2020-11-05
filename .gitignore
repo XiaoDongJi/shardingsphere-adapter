@@ -1,0 +1,43 @@
+README.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+logs/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.flattened-pom.xml
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+*.flattened-pom.xml
+*.dependency-reduced-pom.xml
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+/rmvn.sh
