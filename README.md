@@ -25,13 +25,13 @@ sharding.adapter.global.master-data-source-name = master
 如果自定义SqlSessionFactory配置bean名称
 sharding.adapter.global.sql-session-factory-bean-name =
 配置分表对应的MapperClass
-sharding.adapter.tables.rule.t_rent_contract_pay_plan.mapper-class = com.repository.UserMapper
+sharding.adapter.tables.rule.t_user.mapper-class = com.repository.UserMapper
 配置分表对应的Resource Xml
-sharding.adapter.tables.rule.t_rent_contract_pay_plan.mapper-resource = META-INF/mappers/user.xml
+sharding.adapter.tables.rule.t_user.mapper-resource = META-INF/mappers/user.xml
 定义是否双写
-sharding.adapter.tables.rule.t_rent_contract_pay_plan.both-writer = true
+sharding.adapter.tables.rule.t_user.both-writer = true
 定义是否读分片表
-sharding.adapter.tables.rule.t_rent_contract_pay_plan.read-sharding = false
+sharding.adapter.tables.rule.t_user.read-sharding = false
 ```
 ## 说明
 - 原ShardingJDBC使用的雪花算法无法生成动态WorkId,项目中重写了该部分功能，配置如下
