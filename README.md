@@ -36,8 +36,8 @@ sharding.adapter.tables.rule.t_user.read-sharding = false
 ## 说明
 - 原ShardingJDBC使用的雪花算法无法生成动态WorkId,项目中重写了该部分功能，配置如下
 ```
-spring.shardingsphere.sharding.tables.t_rent_contract_pay_plan.key-generator.column = id
-spring.shardingsphere.sharding.tables.t_rent_contract_pay_plan.key-generator.type = IP_SNOWFLAKE
+spring.shardingsphere.sharding.tables.t_user.key-generator.column = id
+spring.shardingsphere.sharding.tables.t_user.key-generator.type = IP_SNOWFLAKE
 
 ```
 
